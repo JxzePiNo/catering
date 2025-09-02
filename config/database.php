@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $host = '89.46.111.193';
-    private $db_name = 'Sql1699250_2';
-    private $username = 'Sql1699250';
-    private $password = 'Grupposbandieratoritamburini2023!';
+    private $host = '';
+    private $db_name = '';
+    private $username = '';
+    private $password = '';
     public $conn;
 
     public function getConnection() {
